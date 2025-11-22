@@ -2,21 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Tweets</title>
+    <link href="base.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
-<link href="base.css" rel="stylesheet">
-<link href="styles.css" rel="stylesheet">
-<body>
-    <h1>My Tweets</h1>
-    <p>Welcome to my tweets page!</p>
-     <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">Just setting up my twttr</p>&mdash; Jack (@jack) 
-    <a href="https://twitter.com/jack/status/20">March 21, 2006</a>
-  </blockquote> 
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>This is a basic HTML page.</p>
+
+<body class="works_on_smartphone">
+
+    <header>
+        <ul>
+            <li class="logo">&#9733;</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <article>
+            <h1>My Tweets</h1>
+            <p>Welcome to my tweets page!</p>
+
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Just setting up my twttr</p>&mdash; Jack (@jack)
+                <a href="https://twitter.com/jack/status/20">March 21, 2006</a>
+            </blockquote> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+
+        <aside>
+            <h2>About</h2>
+            <p>This is the aside section. You can add notes or links here.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 My Website</p>
+    </footer>
+
 </body>
 </html>
