@@ -216,3 +216,65 @@ nav ul li a {
 .membership button:hover {
     background-color: #a742ff;
 }
+
+
+.membership {
+    background-color: #071629; 
+    color: white;
+    text-align: center;
+    padding: 90px 0;
+}
+
+.membership h2 {
+    font-size: 32px;       
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.membership .offers {
+    display: flex;
+    justify-content: center;
+    gap: 60px;              
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.offer {
+    width: 240px;
+}
+
+.offer img {
+    width: 70px;            
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.offer h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.offer p {
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+.membership button {
+    margin-top: 60px;
+    padding: 15px 40px;
+    background-color: #C271FF; 
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.membership button:hover {
+    background-color: #a742ff; 
+}
+
